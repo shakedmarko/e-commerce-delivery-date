@@ -1,16 +1,24 @@
 Assignment background
 
-You are a data scientist at an e-commerce company (operating in Brazil). The site is a marketplace connecting sellers and buyers and enables them to purchase products from one another. 
+You are a data scientist at an e-commerce company (operating in Brazil).
+The site is a marketplace connecting sellers and buyers and enables them to purchase products from one another.
 
-You are approached by a product manager that explains that one of the biggest customer complaints are long and unexpected delivery times. He explains that customers that have unexpectedly long delivery dates tend to be less satisfied and are less likely to return to the site and make additional purchases. He asks you to help with this problem and build a model that will predict the delivery date. There is an existing delivery date estimation mechanism, but it is not working well and he asks you to improve it. Additionally, to help customers with delivery dates, he asks you to come up with a method to recommend alternatives to their orders that have faster delivery times.
+You are approached by a product manager that explains that
+one of the biggest customer complaints are long and unexpected delivery times.
+He explains that customers that have unexpectedly long delivery dates tend to be
+less satisfied and are less likely to return to the site and make additional purchases.
+He asks you to help with this problem and build a model that will predict the delivery date.
+There is an existing delivery date estimation mechanism, but it is not working well and he asks you to improve it.
+Additionally, to help customers with delivery dates, he asks you to come up with a method to recommend alternatives
+to their orders that have faster delivery times.
 
-Data
 
 You have the following data:
+Orders_dataset - contains orders, with the customer who ordered it and dates about shipping and delivery.
+Also contain the current delivery estimation, which can be used as a black box for your work.
 
-Orders_dataset - contains orders, with the customer who ordered it and dates about shipping and delivery. Also contain the current delivery estimation, which can be used as a black box for your work.
-
-Order_items_dataset - contains the details of the order. Has the products that were in the order, the seller, price and other information
+Order_items_dataset - contains the details of the order.
+Has the products that were in the order, the seller, price and other information
 
 Products_dataset  - contains information about products sold on the site
 
@@ -28,16 +36,22 @@ Order_items, products: product_id
 Sellers, Geo_location: zip_code_prefix
 Customers, Geo_location : zip_code_prefix
 
-The dataset is here: dataset
+Your task:
+Perform Exploratory Data analysis (EDA) on the dataset.
+Document your insights that can be important to improve shipping speed and predictability.
 
-
-Your task
-
-Perform Exploratory Data analysis (EDA) on the dataset. Document your insights that can be important to improve shipping speed and predictability.
 Based on the EDA, list all the questions for the product manager and all your insights and recommendations
-Build a shipping prediction model. Analyze its success and be ready to present your approach. What can we expect in production? Share a jupyter notebook
-Perform EDA and based on that come up with a plan of how you would approach recommending alternative products that shorten shipping times. No need to build a model, but the plan needs to be based data
-Prepare a presentation that summarizes all your findings and methods. Include other steps you would do if you had more time (if you are comfortable, you can present in a notebook)
+
+Build a shipping prediction model.
+Analyze its success and be ready to present your approach.
+What can we expect in production?
+Share a jupyter notebook
+Perform EDA and based on that come up with a plan of
+how you would approach recommending alternative products that shorten shipping times.
+No need to build a model, but the plan needs to be based data
+
+Prepare a presentation that summarizes all your findings and methods.
+Include other steps you would do if you had more time (if you are comfortable, you can present in a notebook)
 
 
 Good luck!
